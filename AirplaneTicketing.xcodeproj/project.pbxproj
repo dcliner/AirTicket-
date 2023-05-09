@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9FDEC502A09439300BA17E8 /* AirplaneTicketingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FDEC4F2A09439300BA17E8 /* AirplaneTicketingApp.swift */; };
+		B9FDEC522A09439300BA17E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FDEC512A09439300BA17E8 /* ContentView.swift */; };
+		B9FDEC542A09439900BA17E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9FDEC532A09439900BA17E8 /* Assets.xcassets */; };
+		B9FDEC572A09439900BA17E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9FDEC562A09439900BA17E8 /* Preview Assets.xcassets */; };
+		B9FDEC5F2A09449100BA17E8 /* TourModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FDEC5E2A09449100BA17E8 /* TourModel.swift */; };
+		B9FDEC612A0944A800BA17E8 /* AeroportsMapping .swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FDEC602A0944A800BA17E8 /* AeroportsMapping .swift */; };
+		B9FDEC632A0944B900BA17E8 /* ViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FDEC622A0944B900BA17E8 /* ViewModifier.swift */; };
+		B9FDEC652A0944CF00BA17E8 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FDEC642A0944CF00BA17E8 /* ColorExtension.swift */; };
+		B9FDEC672A0944E100BA17E8 /* GestureExtenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FDEC662A0944E100BA17E8 /* GestureExtenstion.swift */; };
+		B9FDEC832A09594E00BA17E8 /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9FDEC702A09594E00BA17E8 /* Montserrat-LightItalic.ttf */; };
+		B9FDEC842A09594E00BA17E8 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9FDEC712A09594E00BA17E8 /* Montserrat-Medium.ttf */; };
+		B9FDEC852A09594E00BA17E8 /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9FDEC722A09594E00BA17E8 /* Montserrat-BoldItalic.ttf */; };
+		B9FDEC862A09594E00BA17E8 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9FDEC732A09594E00BA17E8 /* Montserrat-Light.ttf */; };
+		B9FDEC872A09594E00BA17E8 /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9FDEC742A09594E00BA17E8 /* Montserrat-ThinItalic.ttf */; };
+		B9FDEC882A09594E00BA17E8 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9FDEC752A09594E00BA17E8 /* Montserrat-ExtraLight.ttf */; };
+		B9FDEC892A09594E00BA17E8 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9FDEC762A09594E00BA17E8 /* Montserrat-Thin.ttf */; };
+		B9FDEC8A2A09594E00BA17E8 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9FDEC772A09594E00BA17E8 /* Montserrat-Bold.ttf */; };
+		B9FDEC8B2A09594E00BA17E8 /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9FDEC782A09594E00BA17E8 /* Montserrat-MediumItalic.ttf */; };
+		B9FDEC8C2A09594E00BA17E8 /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9FDEC792A09594E00BA17E8 /* Montserrat-BlackItalic.ttf */; };
+		B9FDEC8D2A09594E00BA17E8 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9FDEC7A2A09594E00BA17E8 /* Montserrat-SemiBold.ttf */; };
+		B9FDEC8E2A09594E00BA17E8 /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9FDEC7B2A09594E00BA17E8 /* Montserrat-ExtraLightItalic.ttf */; };
+		B9FDEC8F2A09594E00BA17E8 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9FDEC7C2A09594E00BA17E8 /* Montserrat-ExtraBold.ttf */; };
+		B9FDEC902A09594E00BA17E8 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = B9FDEC7D2A09594E00BA17E8 /* OFL.txt */; };
+		B9FDEC912A09594E00BA17E8 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9FDEC7E2A09594E00BA17E8 /* Montserrat-Black.ttf */; };
+		B9FDEC922A09594E00BA17E8 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9FDEC7F2A09594E00BA17E8 /* Montserrat-Regular.ttf */; };
+		B9FDEC932A09594E00BA17E8 /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9FDEC802A09594E00BA17E8 /* Montserrat-Italic.ttf */; };
+		B9FDEC942A09594E00BA17E8 /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9FDEC812A09594E00BA17E8 /* Montserrat-SemiBoldItalic.ttf */; };
+		B9FDEC952A09594E00BA17E8 /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9FDEC822A09594E00BA17E8 /* Montserrat-ExtraBoldItalic.ttf */; };
+		B9FDECAF2A09665A00BA17E8 /* GetStartedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FDECAE2A09665A00BA17E8 /* GetStartedView.swift */; };
+		B9FDECB12A09704000BA17E8 /* FlightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FDECB02A09704000BA17E8 /* FlightsView.swift */; };
+		B9FDECB32A098A7C00BA17E8 /* TourView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FDECB22A098A7C00BA17E8 /* TourView.swift */; };
+		B9FDECB52A099E8300BA17E8 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FDECB42A099E8200BA17E8 /* Menu.swift */; };
+		B9FDECB72A09A6EE00BA17E8 /* CalculatedRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FDECB62A09A6EE00BA17E8 /* CalculatedRoute.swift */; };
+		B9FDECB92A09E97E00BA17E8 /* FlightDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FDECB82A09E97E00BA17E8 /* FlightDetailsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B9FDEC4C2A09439300BA17E8 /* AirplaneTicketing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirplaneTicketing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9FDEC4F2A09439300BA17E8 /* AirplaneTicketingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirplaneTicketingApp.swift; sourceTree = "<group>"; };
+		B9FDEC512A09439300BA17E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B9FDEC532A09439900BA17E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9FDEC562A09439900BA17E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B9FDEC5E2A09449100BA17E8 /* TourModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourModel.swift; sourceTree = "<group>"; };
+		B9FDEC602A0944A800BA17E8 /* AeroportsMapping .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AeroportsMapping .swift"; sourceTree = "<group>"; };
+		B9FDEC622A0944B900BA17E8 /* ViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifier.swift; sourceTree = "<group>"; };
+		B9FDEC642A0944CF00BA17E8 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		B9FDEC662A0944E100BA17E8 /* GestureExtenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureExtenstion.swift; sourceTree = "<group>"; };
+		B9FDEC702A09594E00BA17E8 /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
+		B9FDEC712A09594E00BA17E8 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		B9FDEC722A09594E00BA17E8 /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
+		B9FDEC732A09594E00BA17E8 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		B9FDEC742A09594E00BA17E8 /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
+		B9FDEC752A09594E00BA17E8 /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
+		B9FDEC762A09594E00BA17E8 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		B9FDEC772A09594E00BA17E8 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		B9FDEC782A09594E00BA17E8 /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
+		B9FDEC792A09594E00BA17E8 /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
+		B9FDEC7A2A09594E00BA17E8 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		B9FDEC7B2A09594E00BA17E8 /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		B9FDEC7C2A09594E00BA17E8 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		B9FDEC7D2A09594E00BA17E8 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		B9FDEC7E2A09594E00BA17E8 /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		B9FDEC7F2A09594E00BA17E8 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		B9FDEC802A09594E00BA17E8 /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic.ttf"; sourceTree = "<group>"; };
+		B9FDEC812A09594E00BA17E8 /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		B9FDEC822A09594E00BA17E8 /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		B9FDEC972A09596500BA17E8 /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
+		B9FDEC982A09596500BA17E8 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		B9FDEC992A09596500BA17E8 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		B9FDEC9A2A09596600BA17E8 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		B9FDEC9B2A09596600BA17E8 /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
+		B9FDEC9C2A09596600BA17E8 /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		B9FDEC9D2A09596600BA17E8 /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
+		B9FDEC9E2A09596600BA17E8 /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
+		B9FDEC9F2A09596600BA17E8 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		B9FDECA02A09596600BA17E8 /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic.ttf"; sourceTree = "<group>"; };
+		B9FDECA12A09596600BA17E8 /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		B9FDECA22A09596600BA17E8 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		B9FDECA32A09596600BA17E8 /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
+		B9FDECA42A09596600BA17E8 /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		B9FDECA52A09596600BA17E8 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		B9FDECA62A09596600BA17E8 /* OFL.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		B9FDECA72A09596600BA17E8 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		B9FDECA82A09596600BA17E8 /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		B9FDECA92A09596700BA17E8 /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
+		B9FDECAE2A09665A00BA17E8 /* GetStartedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedView.swift; sourceTree = "<group>"; };
+		B9FDECB02A09704000BA17E8 /* FlightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightsView.swift; sourceTree = "<group>"; };
+		B9FDECB22A098A7C00BA17E8 /* TourView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourView.swift; sourceTree = "<group>"; };
+		B9FDECB42A099E8200BA17E8 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		B9FDECB62A09A6EE00BA17E8 /* CalculatedRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatedRoute.swift; sourceTree = "<group>"; };
+		B9FDECB82A09E97E00BA17E8 /* FlightDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightDetailsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9FDEC492A09439300BA17E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9FDEC432A09439300BA17E8 = {
+			isa = PBXGroup;
+			children = (
+				B9FDEC4E2A09439300BA17E8 /* AirplaneTicketing */,
+				B9FDEC4D2A09439300BA17E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9FDEC4D2A09439300BA17E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9FDEC4C2A09439300BA17E8 /* AirplaneTicketing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9FDEC4E2A09439300BA17E8 /* AirplaneTicketing */ = {
+			isa = PBXGroup;
+			children = (
+				B9FDEC4F2A09439300BA17E8 /* AirplaneTicketingApp.swift */,
+				B9FDEC512A09439300BA17E8 /* ContentView.swift */,
+				B9FDEC6A2A09458200BA17E8 /* HomeViews  */,
+				B9FDEC5D2A09446900BA17E8 /* Models  */,
+				B9FDEC682A0944F700BA17E8 /* Extensions  */,
+				B9FDEC692A09454D00BA17E8 /* Modifiers */,
+				B9FDEC532A09439900BA17E8 /* Assets.xcassets */,
+				B9FDEC552A09439900BA17E8 /* Preview Content */,
+				B9FDEC962A09596500BA17E8 /* Fonts */,
+			);
+			path = AirplaneTicketing;
+			sourceTree = "<group>";
+		};
+		B9FDEC552A09439900BA17E8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B9FDEC6F2A09594E00BA17E8 /* Fonts */,
+				B9FDEC562A09439900BA17E8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B9FDEC5D2A09446900BA17E8 /* Models  */ = {
+			isa = PBXGroup;
+			children = (
+				B9FDEC5E2A09449100BA17E8 /* TourModel.swift */,
+				B9FDEC602A0944A800BA17E8 /* AeroportsMapping .swift */,
+			);
+			path = "Models ";
+			sourceTree = "<group>";
+		};
+		B9FDEC682A0944F700BA17E8 /* Extensions  */ = {
+			isa = PBXGroup;
+			children = (
+				B9FDEC642A0944CF00BA17E8 /* ColorExtension.swift */,
+				B9FDEC662A0944E100BA17E8 /* GestureExtenstion.swift */,
+			);
+			path = "Extensions ";
+			sourceTree = "<group>";
+		};
+		B9FDEC692A09454D00BA17E8 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				B9FDEC622A0944B900BA17E8 /* ViewModifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		B9FDEC6A2A09458200BA17E8 /* HomeViews  */ = {
+			isa = PBXGroup;
+			children = (
+				B9FDECAE2A09665A00BA17E8 /* GetStartedView.swift */,
+				B9FDECB02A09704000BA17E8 /* FlightsView.swift */,
+				B9FDECB22A098A7C00BA17E8 /* TourView.swift */,
+				B9FDECB42A099E8200BA17E8 /* Menu.swift */,
+				B9FDECB62A09A6EE00BA17E8 /* CalculatedRoute.swift */,
+				B9FDECB82A09E97E00BA17E8 /* FlightDetailsView.swift */,
+			);
+			path = "HomeViews ";
+			sourceTree = "<group>";
+		};
+		B9FDEC6F2A09594E00BA17E8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B9FDEC702A09594E00BA17E8 /* Montserrat-LightItalic.ttf */,
+				B9FDEC712A09594E00BA17E8 /* Montserrat-Medium.ttf */,
+				B9FDEC722A09594E00BA17E8 /* Montserrat-BoldItalic.ttf */,
+				B9FDEC732A09594E00BA17E8 /* Montserrat-Light.ttf */,
+				B9FDEC742A09594E00BA17E8 /* Montserrat-ThinItalic.ttf */,
+				B9FDEC752A09594E00BA17E8 /* Montserrat-ExtraLight.ttf */,
+				B9FDEC762A09594E00BA17E8 /* Montserrat-Thin.ttf */,
+				B9FDEC772A09594E00BA17E8 /* Montserrat-Bold.ttf */,
+				B9FDEC782A09594E00BA17E8 /* Montserrat-MediumItalic.ttf */,
+				B9FDEC792A09594E00BA17E8 /* Montserrat-BlackItalic.ttf */,
+				B9FDEC7A2A09594E00BA17E8 /* Montserrat-SemiBold.ttf */,
+				B9FDEC7B2A09594E00BA17E8 /* Montserrat-ExtraLightItalic.ttf */,
+				B9FDEC7C2A09594E00BA17E8 /* Montserrat-ExtraBold.ttf */,
+				B9FDEC7D2A09594E00BA17E8 /* OFL.txt */,
+				B9FDEC7E2A09594E00BA17E8 /* Montserrat-Black.ttf */,
+				B9FDEC7F2A09594E00BA17E8 /* Montserrat-Regular.ttf */,
+				B9FDEC802A09594E00BA17E8 /* Montserrat-Italic.ttf */,
+				B9FDEC812A09594E00BA17E8 /* Montserrat-SemiBoldItalic.ttf */,
+				B9FDEC822A09594E00BA17E8 /* Montserrat-ExtraBoldItalic.ttf */,
+			);
+			name = Fonts;
+			path = ../../../AirplaneTicketsApp/AirTicketsApp/Fonts;
+			sourceTree = "<group>";
+		};
+		B9FDEC962A09596500BA17E8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B9FDECA32A09596600BA17E8 /* Montserrat-LightItalic.ttf */,
+				B9FDECA22A09596600BA17E8 /* Montserrat-Medium.ttf */,
+				B9FDEC9D2A09596600BA17E8 /* Montserrat-BoldItalic.ttf */,
+				B9FDECA52A09596600BA17E8 /* Montserrat-Light.ttf */,
+				B9FDEC9E2A09596600BA17E8 /* Montserrat-ThinItalic.ttf */,
+				B9FDEC972A09596500BA17E8 /* Montserrat-ExtraLight.ttf */,
+				B9FDEC992A09596500BA17E8 /* Montserrat-Thin.ttf */,
+				B9FDEC9F2A09596600BA17E8 /* Montserrat-Bold.ttf */,
+				B9FDEC9B2A09596600BA17E8 /* Montserrat-MediumItalic.ttf */,
+				B9FDECA92A09596700BA17E8 /* Montserrat-BlackItalic.ttf */,
+				B9FDECA72A09596600BA17E8 /* Montserrat-SemiBold.ttf */,
+				B9FDECA82A09596600BA17E8 /* Montserrat-ExtraLightItalic.ttf */,
+				B9FDEC9A2A09596600BA17E8 /* Montserrat-ExtraBold.ttf */,
+				B9FDECA62A09596600BA17E8 /* OFL.txt */,
+				B9FDEC9C2A09596600BA17E8 /* Montserrat-Black.ttf */,
+				B9FDEC982A09596500BA17E8 /* Montserrat-Regular.ttf */,
+				B9FDECA02A09596600BA17E8 /* Montserrat-Italic.ttf */,
+				B9FDECA12A09596600BA17E8 /* Montserrat-SemiBoldItalic.ttf */,
+				B9FDECA42A09596600BA17E8 /* Montserrat-ExtraBoldItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9FDEC4B2A09439300BA17E8 /* AirplaneTicketing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9FDEC5A2A09439900BA17E8 /* Build configuration list for PBXNativeTarget "AirplaneTicketing" */;
+			buildPhases = (
+				B9FDEC482A09439300BA17E8 /* Sources */,
+				B9FDEC492A09439300BA17E8 /* Frameworks */,
+				B9FDEC4A2A09439300BA17E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirplaneTicketing;
+			productName = AirplaneTicketing;
+			productReference = B9FDEC4C2A09439300BA17E8 /* AirplaneTicketing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9FDEC442A09439300BA17E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					B9FDEC4B2A09439300BA17E8 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = B9FDEC472A09439300BA17E8 /* Build configuration list for PBXProject "AirplaneTicketing" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9FDEC432A09439300BA17E8;
+			productRefGroup = B9FDEC4D2A09439300BA17E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9FDEC4B2A09439300BA17E8 /* AirplaneTicketing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9FDEC4A2A09439300BA17E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9FDEC8F2A09594E00BA17E8 /* Montserrat-ExtraBold.ttf in Resources */,
+				B9FDEC8C2A09594E00BA17E8 /* Montserrat-BlackItalic.ttf in Resources */,
+				B9FDEC8B2A09594E00BA17E8 /* Montserrat-MediumItalic.ttf in Resources */,
+				B9FDEC852A09594E00BA17E8 /* Montserrat-BoldItalic.ttf in Resources */,
+				B9FDEC932A09594E00BA17E8 /* Montserrat-Italic.ttf in Resources */,
+				B9FDEC952A09594E00BA17E8 /* Montserrat-ExtraBoldItalic.ttf in Resources */,
+				B9FDEC572A09439900BA17E8 /* Preview Assets.xcassets in Resources */,
+				B9FDEC862A09594E00BA17E8 /* Montserrat-Light.ttf in Resources */,
+				B9FDEC922A09594E00BA17E8 /* Montserrat-Regular.ttf in Resources */,
+				B9FDEC872A09594E00BA17E8 /* Montserrat-ThinItalic.ttf in Resources */,
+				B9FDEC832A09594E00BA17E8 /* Montserrat-LightItalic.ttf in Resources */,
+				B9FDEC942A09594E00BA17E8 /* Montserrat-SemiBoldItalic.ttf in Resources */,
+				B9FDEC8E2A09594E00BA17E8 /* Montserrat-ExtraLightItalic.ttf in Resources */,
+				B9FDEC8D2A09594E00BA17E8 /* Montserrat-SemiBold.ttf in Resources */,
+				B9FDEC912A09594E00BA17E8 /* Montserrat-Black.ttf in Resources */,
+				B9FDEC902A09594E00BA17E8 /* OFL.txt in Resources */,
+				B9FDEC892A09594E00BA17E8 /* Montserrat-Thin.ttf in Resources */,
+				B9FDEC8A2A09594E00BA17E8 /* Montserrat-Bold.ttf in Resources */,
+				B9FDEC842A09594E00BA17E8 /* Montserrat-Medium.ttf in Resources */,
+				B9FDEC542A09439900BA17E8 /* Assets.xcassets in Resources */,
+				B9FDEC882A09594E00BA17E8 /* Montserrat-ExtraLight.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9FDEC482A09439300BA17E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9FDECB32A098A7C00BA17E8 /* TourView.swift in Sources */,
+				B9FDEC522A09439300BA17E8 /* ContentView.swift in Sources */,
+				B9FDECB92A09E97E00BA17E8 /* FlightDetailsView.swift in Sources */,
+				B9FDECAF2A09665A00BA17E8 /* GetStartedView.swift in Sources */,
+				B9FDEC672A0944E100BA17E8 /* GestureExtenstion.swift in Sources */,
+				B9FDEC612A0944A800BA17E8 /* AeroportsMapping .swift in Sources */,
+				B9FDECB52A099E8300BA17E8 /* Menu.swift in Sources */,
+				B9FDECB72A09A6EE00BA17E8 /* CalculatedRoute.swift in Sources */,
+				B9FDEC5F2A09449100BA17E8 /* TourModel.swift in Sources */,
+				B9FDECB12A09704000BA17E8 /* FlightsView.swift in Sources */,
+				B9FDEC652A0944CF00BA17E8 /* ColorExtension.swift in Sources */,
+				B9FDEC632A0944B900BA17E8 /* ViewModifier.swift in Sources */,
+				B9FDEC502A09439300BA17E8 /* AirplaneTicketingApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B9FDEC582A09439900BA17E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B9FDEC592A09439900BA17E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9FDEC5B2A09439900BA17E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AirplaneTicketing/Preview Content\"";
+				DEVELOPMENT_TEAM = 2N899L7GD7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swift.AirplaneTicketing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B9FDEC5C2A09439900BA17E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AirplaneTicketing/Preview Content\"";
+				DEVELOPMENT_TEAM = 2N899L7GD7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swift.AirplaneTicketing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9FDEC472A09439300BA17E8 /* Build configuration list for PBXProject "AirplaneTicketing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9FDEC582A09439900BA17E8 /* Debug */,
+				B9FDEC592A09439900BA17E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9FDEC5A2A09439900BA17E8 /* Build configuration list for PBXNativeTarget "AirplaneTicketing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9FDEC5B2A09439900BA17E8 /* Debug */,
+				B9FDEC5C2A09439900BA17E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9FDEC442A09439300BA17E8 /* Project object */;
+}
